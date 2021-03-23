@@ -1,34 +1,28 @@
-# MEAN application using passport login and Node JS API #
 
-"Its my personal portal application which i am using for providing training to other people , it has everything in it clinet side code and server side code which is deployed on heroku and using mongolab for mongo DB.
+# Migrating an Angular 1 Application to React with Redux #
 
-The application allows you to browse through a list of available courses and also provide you the platform to learn new things.
+React is a JavaScript library for building user interfaces.
 
-REST API developed in Node and Angular is consuming those services.
+* **Declarative:** React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes. Declarative views make your code more predictable, simpler to understand, and easier to debug.
+* **Component-Based:** Build encapsulated components that manage their own state, then compose them to make complex UIs. Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM.
+* **Learn Once, Write Anywhere:** We don't make assumptions about the rest of your technology stack, so you can develop new features in React without rewriting existing code. React can also render on the server using Node and power mobile apps using [React Native](https://facebook.github.io/react-native/).
+*
+ Why React?
+The main purpose of this article isn’t to explore the why — it is a heated topic and there are plenty of articles out there offering (often strong) opinions on why to choose one library or framework over another (Comparison of Component Libraries,
+
+# Angular 2 vs React, State of the Art JavaScript in 2016
+
+Some of the reasons you might look at moving from Angular 1 to React are due to the performance and complexity issues surrounding Angular 1, which React addresses with features such as:
+## The use of virtual DOM
+## One-way data flow, JSX
+## PropTypes and a well-defined component lifecycle
+to benefit from more code-reuse by using it in conjunction with React Native or by making use of server-side rendering; to move to a more modular architecture to avoid similar migration headaches in the future; to adopt a library (and supporting ecosystem) that has had significant and widespread uptake compared to Angular 1, bringing a large and innovative community around it; or to simply keep up with the rate of change in the front-end world, giving your company the best chance to hire developers in the long term. Whatever your reasoning, I strongly believe you can’t go very wrong adopting React, and I consider moving to React as much of a prudent business decision as a technical one.
 
 
-## To run the application on your own Heroku account:##
-
-1. Install the [Heroku Toolbelt](http://toolbelt.heroku.com)
-
-2. [Sign up](http://heroku.com/signup) for a Heroku account
-
-3. Login to Heroku from the `heroku` CLI:
-
-        $ heroku login
-
-4. Create a new app on Heroku:
-
-        $ heroku create
-
-5. Add the [MongoLab Heroku Add-on](http://addons.heroku.com/mongolab)
-
-        $ heroku addons:add mongolab
-
-6. Upload the app to Heroku:
-
-        $ git push heroku master
-
-7. Open the app in your browser:
-
-        $ heroku open
+Contact
+====================
+[<img src="https://s3-us-west-2.amazonaws.com/martinsocial/MARTIN2.png" />](http://gennexttraining.herokuapp.com/)
+[<img src="https://s3-us-west-2.amazonaws.com/martinsocial/github.png" />](https://github.com/tkssharma)
+[<img src="https://s3-us-west-2.amazonaws.com/martinsocial/mail.png" />](mailto:tarun.softengg@gmail.com)
+[<img src="https://s3-us-west-2.amazonaws.com/martinsocial/linkedin.png" />](https://www.linkedin.com/in/tkssharma)
+[<img src="https://s3-us-west-2.amazonaws.com/martinsocial/twitter.png" />](https://twitter.com/tkssharma)
